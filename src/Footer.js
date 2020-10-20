@@ -8,11 +8,16 @@ import RepeatIcon from '@material-ui/icons/Repeat';
 import PlaylistPlayIcon from '@material-ui/icons/PlaylistPlay';
 import VolumeDownIcon from '@material-ui/icons/VolumeDown';
 import { Grid, Slider } from "@material-ui/core";
+
 function Footer() {
     return (
         <div className="footer">
             <div className="footer__left">
-                <p>Album and song controls</p>
+                <img className="footer__albumLogo" src="" alt="" />
+                <div className="footer__songInfo">
+                    <h4>Yeah!</h4>
+                    <p>Usher</p>
+                </div>
             </div>
 
             <div className="footer__center">
